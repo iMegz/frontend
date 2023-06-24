@@ -73,6 +73,16 @@ button:active:not(:disabled) {
     box-shadow: #3c4fe0 0 3px 7px inset;
     transform: translateY(2px);
 }
+textarea {
+    margin-top: 2rem;
+    width: 50%;
+    height: 100px;
+    resize: none;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
 /*--------------------------------*/
 .container {
     width: 30%;

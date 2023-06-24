@@ -1,4 +1,4 @@
-function Buttons({ hRecClick, hStopClick, hTransClick, isRec, backend }) {
+function Buttons({ hRecClick, hStopClick, hTransClick, isRec }) {
     return (
         <div className="btn-holder">
             <button onClick={hRecClick} disabled={isRec}>
@@ -7,9 +7,7 @@ function Buttons({ hRecClick, hStopClick, hTransClick, isRec, backend }) {
             <button onClick={hStopClick} disabled={!isRec}>
                 Stop
             </button>
-            <button onClick={hTransClick}>
-                {backend ? "Backend" : "Frontend"}
-            </button>
+            <button onClick={hTransClick}>Clear</button>
         </div>
     );
 }
